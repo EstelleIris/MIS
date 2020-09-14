@@ -1,0 +1,143 @@
+.step {
+    counter-reset: flag
+}
+
+.step.nav-stacked li + li {
+    margin-top: 0
+}
+
+.step li {
+    position: relative;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out
+}
+
+.step li a {
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out
+}
+
+.step li a:before {
+    content: counter(flag);
+    counter-increment: flag;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out
+}
+
+.step li a:after {
+    content: "";
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out
+}
+
+.step-round {
+    margin-top: 40px
+}
+
+.step-round > li:first-child > a:after {
+    left: 30%;
+    border-radius: 5px 0 0 5px
+}
+
+.vertical.step-round > li:first-child > a:after {
+    border-radius: 5px 5px 0 0
+}
+
+.step-round > li:last-child > a:after {
+    right: 30%;
+    border-radius: 0 5px 5px 0
+}
+
+.vertical.step-round > li:last-child > a:after {
+    border-radius: 0 0 5px 5px
+}
+
+.step-round > li.active > a, .step-round > li.active > a:hover, .step-round > li.active > a:focus {
+    background: 0 0;
+    color: #3fc5f0
+}
+
+.step-round > li.active > a:before, .step-round > li.active > a:hover:before, .step-round > li.active > a:focus:before {
+    background-color: #3fc5f0;
+    color: #fff
+}
+
+.step-round > li.active > a:after, .step-round > li.active > a:hover:after, .step-round > li.active > a:focus:after {
+    background-color: #3fc5f0
+}
+
+.vertical.step-round > li.active > a:after, .vertical.step-round > li.active > a:hover:after, .vertical.step-round > li.active > a:focus:after {
+    background-color: #3fc5f0
+}
+
+.step-round > li > a {
+    color: #3fc5f0
+}
+
+.step-round > li > a:before {
+    position: absolute;
+    z-index: 2;
+    top: -2rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #fff;
+    line-height: 2rem;
+    box-shadow: 0 0 0 5px #3fc5f0
+}
+
+.vertical.step-round > li > a:before {
+    top: 0;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px
+}
+
+.step-round > li > a:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -38%;
+    background-color: #3fc5f0;
+    z-index: 1;
+    height: 8px
+}
+
+.vertical.step-round > li > a:after {
+    width: 8px;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 22px;
+    background-color: #3fc5f0;
+    border: none
+}
+
+.step-round > li > a:after:after {
+    background-color: #3fc5f0
+}
+
+.step-round > li > a:hover {
+    background: 0 0;
+    color: #3fc5f0
+}
+
+.step-round > li > a:hover:before {
+    background-color: #3fc5f0;
+    color: #fff
+}
+
+.step-round > li > a:hover:after {
+    background-color: #3fc5f0
+}
+

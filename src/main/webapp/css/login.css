@@ -1,0 +1,65 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.login {
+    width: 100%;
+    height: 100%;
+    background-color: #40bad5;
+    background-size: 100%;
+}
+
+.login-header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin: 30px 15px 0 50px;
+}
+
+header h1 {
+    font-size: 26px;
+    color: white;
+    padding: 20px 20px 0 10px;
+}
+
+.login-content {
+    width: 380px;
+    height: 350px;
+    background-color: #b2ebf2;
+    margin: 60px auto;
+    padding: 5px 40px;
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px 20px 10px 20px;
+}
+
+.btn-login {
+    width: 300px;
+    height: 35px;
+    color: white;
+    background-color: #40bad5;
+}
+
+.btn-login:hover {
+    background-color: #fff;
+}
+
+.forget {
+    padding-left: 110px;
+}
+
+.hint {
+    color: red;
+    text-align: center;
+}

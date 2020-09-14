@@ -1,0 +1,188 @@
+/*主体内容*/
+.content {
+    margin-top: 50px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+/*分页*/
+.pag-right {
+    text-align: center;
+}
+
+/*时间*/
+#displaydate {
+    padding: 15px 15px 15px 15px;
+    color: #FFF;
+}
+
+#displaytime {
+    padding: 15px 0px;
+    color: #FFF;
+}
+
+/*日历*/
+.block {
+    border: 1px solid #ccc;
+    background: white;
+    margin: 1em 0em;
+}
+
+.calendarHeader {
+    text-align: center;
+    background-color: #3fc5f0;
+    margin: 0px;
+    padding-top: 7px;
+    color: white;
+    width: 685px;
+    height: 35px;
+}
+
+.block-content {
+    margin: 1em;
+    min-height: .25em;
+}
+
+/*侧边导航栏*/
+a, a:hover, a:focus {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.panel-group {
+    background-color: #404040;
+    width: 250px;
+    height: 1000px;
+    overflow-y: auto;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.panel-group .panel {
+    background-color: #404040;
+    border: none;
+}
+
+.panel-heading {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.panel-default > .panel-heading {
+    border: none;
+    color: #ffffff;
+    background-color: #505050;
+}
+
+.panel-default > .panel-heading > span {
+    font-size: 10px;
+}
+
+.panel-default > .panel-heading:active, .panel-default > .panel-heading:hover {
+    background-color: #4a8bc2;
+}
+
+.panel-default > .panel-heading > a:hover {
+    text-decoration: none;
+    background-color: #4a8bc2;
+}
+
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+    border: none;
+}
+
+.panel-body {
+    padding: 0px;
+}
+
+.nav > li {
+    padding: 1px 0px 0px 0px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    padding: 10px 10px 10px 35px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #505050;
+}
+
+/*modal.html
+breadcrumb*/
+.breadcrumb {
+    margin-top: 40px;
+}
+
+.breadcrumbFont1 {
+    color: #000;
+}
+
+.breadcrumbFont2 {
+    color: #3fc5f0;
+}
+
+.required {
+    color: red;
+}
+
+/*上传图片的处理*/
+.inputPhoto {
+    opacity: 0;
+}
+
+.photoLabel {
+    margin-top: -40px;
+}
+
+tr th {
+    text-align: center;
+}
+
+tr td {
+    text-align: center;
+}
+
+.margin_left {
+    margin-left: 120px;
+}
+
+.margin_left2 {
+    margin-left: 130px;
+}
+
+.pad_top {
+    padding-top: 20px;
+}
+
+.btn_margin {
+    margin-top: 20px;
+}
+
+.margin_import {
+    margin-left: 150px;
+}
+
+.status {
+    margin-top: 8px;
+}
+
+.commit {
+    margin-left: 200px
+}
+
+.even-line {
+    background: #dedeff;
+}
+
+.odd-line {
+    background: #eeeeff;
+}
+
+.btn-search {
+    margin-left: 30px;
+}
+
+
+
+
